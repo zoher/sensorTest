@@ -9,7 +9,7 @@
 **
 **  Environment : Atollic TrueSTUDIO(R)
 **
-**  Distribution: The file is distributed “as is,” without any warranty
+**  Distribution: The file is distributed
 **                of any kind.
 **
 **  (c)Copyright Atollic AB.
@@ -40,6 +40,7 @@
 
 /* Global variables */
 uint32_t timerFlag=0;
+__IO uint8_t PrevXferComplete = 1;
 
 /**
 **===========================================================================
